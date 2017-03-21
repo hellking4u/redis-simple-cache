@@ -2,7 +2,7 @@
 A simple redis-cache interface for storing python objects.
 """
 from functools import wraps
-import pickle
+import cPickle as pickle
 import json
 import hashlib
 import redis
